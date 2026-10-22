@@ -21,31 +21,31 @@ The script will get all files and generates a single .iso file.
 
 * Default, the following Virtio drivers are included:
 
-viostor 
-vioscsi    
-NetKVM    
-Balloon   
+Balloon\
+NetKVM\
+viostor\
+vioscsi\
 vioserial
 
 * "All drivers" will also include the following Virtio drivers:
 
-fwcfg
-pvpanic
-qemufwcfg
-qemupciserial
-qxldod
-smbus
-sriov
-viofs
-viogpudo
-vioinput
-viomem
-viorng    
-viosock    
+fwcfg\
+pvpanic\
+qemufwcfg\
+qemupciserial\
+qxldod\
+smbus\
+sriov\
+viofs\
+viogpudo\
+vioinput\
+viomem\
+viorng\
+viosock
 
 * QEMU Guest Agent:
 
-Will automatically install the QEMU Agent after installation for use on e.g., Proxmox 
+Will automatically install the QEMU Agent after installation for use on e.g., Proxmox
 
 * Sources:
   
@@ -54,10 +54,11 @@ Will automatically install the QEMU Agent after installation for use on e.g., Pr
 [Windows Evaluation Center](https://www.microsoft.com/en-us/evalcenter)
 
 # Next release will include:
-- Option to add a "Custom Drivers" folder (e.g., Wifi drivers for laptop)
-- Option to de-select Virtio drivers (when using "Custom Drivers" option)
-- Option to add "autounattend.xml" file (add custom Out-Of-Box Experience (OOBE)) 
-- Option to add "pid.txt" file (e.g., use your Windows 11 Professional Retail license Key instead of current Windows 11 Home OEM one)
+- Option to select what Virtio drivers you would like to add instead of "Default" and "All";
+- Option to add a "Custom Drivers" folder (e.g., Wifi drivers for laptop);
+- Option to de-select Virtio drivers (when using "Custom Drivers" option);
+- Option to add "autounattend.xml" file (add custom Out-Of-Box Experience (OOBE));
+- Option to add "pid.txt" file (e.g., use your Windows 11 Professional Retail license Key instead of current Windows 11 Home OEM one).
 
 # Important! 
 
